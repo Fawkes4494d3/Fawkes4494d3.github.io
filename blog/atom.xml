@@ -4,7 +4,6 @@ layout: default
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	
-	<!---link rel="stylesheet" type="text/css" href="/css/main.css"--->
 	<title>Soumava's Blog</title>
 	<link href="http://fawkes4494d3.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://fawkes4494d3.github.io/blog"/>
