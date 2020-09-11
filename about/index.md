@@ -1,7 +1,7 @@
---
+---
 layout: default
 title: "About Me"
---
+---
 
 <div class="blurb">
 	<h1>I'm Soumava!</h1>
