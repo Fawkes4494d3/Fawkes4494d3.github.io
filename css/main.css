@@ -23,7 +23,41 @@ h1 {
     font-size: 45px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h2 {
+    font-size: 41px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+h3 {
+    font-size: 37px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+h4 {
+    font-size: 33px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+h5 {
+    font-size: 29px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+h6 {
+    font-size: 25px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
 p {
+    font-size: 23px;
+    line-height: 21px;
+    color: #333;
+}
+ul {
+    font-size: 23px;
+    line-height: 21px;
+    color: #333;
+}
+ol {
     font-size: 23px;
     line-height: 21px;
     color: #333;
