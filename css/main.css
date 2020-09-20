@@ -59,11 +59,15 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
+ul.posts, ul.projects { 
     margin: 20px auto 40px; 
     font-size: 19px;
 }
 
 ul.posts li {
-    list-style: none;
+    list-style-type: square;
+}
+
+ul.projects li {
+    list-style-type: disc;
 }
