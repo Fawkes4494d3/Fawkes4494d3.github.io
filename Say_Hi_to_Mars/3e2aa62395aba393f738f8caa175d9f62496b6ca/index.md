@@ -1,16 +1,16 @@
 ---
 layout - post
-
+title - "Happy Birthday, love! You are the cutest!"
+date - 2020-11-06
 ---
-
-
-## Welcome to today, hi there, the tall babe with glasses.
 
 <!--
 You can use the [editor on GitHub](https://github.com/Fawkes4494d3/Fawkes4494d3.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files. 
 -->
 
-## That's you, beautiful.
+<!--
+# That's you, beautiful.
+-->
 
 Imma have a conversation with you today. We can do this on a long text that this one can be, like a letter, eh?
 
@@ -19,14 +19,14 @@ Why this password?. **Will put a password explanation here with another link**
 It is actually, 'this is' put together. And [This is the last of .....](https://www.youtube.com/watch?v=Xm7Q8ue9kBM)
 
 A collection of links for you:
-- [http://www.viruscomix.com/page430.html](This is number one.)
-- [http://wondermark.com/006/](This is number two)
-- [http://falseknees.com/] This is number three 
-- number four nineteen twenty one manga **(gotta upload this)** 
+- [This is number one](http://www.viruscomix.com/page430.html)
+- [This is number two](http://wondermark.com/006/)
+- [This is number three](http://falseknees.com/) 
+- [number four nineteen twenty one manga **(gotta upload this)**]()
 
 It's not difficult to find something that you would like. You're one more collection of cells like me, accepting anything that comes their way to enlighten their life. I wouldn't trust the aging and comprehension skills of the sentient part of our cells to be the same, because they are so obviously not.
 
-Strangers in the night//Exchanging glances//Wondering in the night//What were the chances//We'd be sharing love//Before the night was through?//Something in your eyes//Was so inviting//Something in your smile//Was so exciting//Something in my heart told me I must have you (LEARN FROM https://www.youtube.com/watch?v=uXJysyMVTsQ)
+Strangers in the night//Exchanging glances//Wondering in the night//What were the chances//We'd be sharing love//Before the night was through?//Something in your eyes//Was so inviting//Something in your smile//Was so exciting//Something in my heart told me I must have you ([LEARN](https://www.youtube.com/watch?v=uXJysyMVTsQ))
 
 watch over you - alter bridge
 
