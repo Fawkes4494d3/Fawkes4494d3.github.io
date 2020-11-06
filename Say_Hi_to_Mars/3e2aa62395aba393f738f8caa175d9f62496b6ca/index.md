@@ -1,16 +1,15 @@
 ---
-layout - post
+layout - default
 title - "Happy Birthday, love! You are the cutest!"
 date - 2020-11-06
 ---
 
-<!--
-You can use the [editor on GitHub](https://github.com/Fawkes4494d3/Fawkes4494d3.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files. 
--->
+<!-- You can use the [editor on GitHub](https://github.com/Fawkes4494d3/Fawkes4494d3.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files. -->
 
 <!--
 # That's you, beautiful.
 -->
+
 
 Imma have a conversation with you today. We can do this on a long text that this one can be, like a letter, eh?
 
