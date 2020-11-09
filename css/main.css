@@ -19,6 +19,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
 h1 {
     font-size: 38px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
