@@ -18,25 +18,13 @@ body {
 
 .box {
 	border-radius: 3px;
-	background: rgba(101, 101, 101, 0.7); 
+	background: rgba(101, 101, 101, 0.32); 
 	margin: auto; 
 	padding: 12px;
 }
-
-.lightbox {
-	zoom: 1.5;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	text-align: left;
-	margin: auto;
-}
-
 div.horizontal {
 	position: relative;
-	left: 100px;
+	left: 10px;
 	height: 50%;
 	display: inline-flex;
 	justify-content: flex-end;
@@ -44,7 +32,7 @@ div.horizontal {
 
 div.vertical {
 	position: relative;
-	top: 70px;
+	top: 130px;
 	width: 70%;
 	display: inline-flex;
 	flex-direction: column;
@@ -69,8 +57,11 @@ div.vertical {
 </style>
 
 <body>
-
-	<div id="loginbox" class="lightbox" >
+	<div text-align="center">
+		If you didn't come through, <a href="/blog/2020/11/06/something-for-you-my-way"> here </a>, what are you even doing here?
+	</div>
+		
+	<div id="loginbox">
 		<div class="horizontal">
 			<div class="vertical">
 				<div class="box">
