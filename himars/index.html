@@ -28,28 +28,27 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 70%;
-	height: 50%;
-	background: rgba(10, 53, 66, 0.71);
-	text-align: center;
+	width: 100%;
+	height: 100%;
+	text-align: left;
 	margin: auto;
 }
 
 div.horizontal {
-	display: inline-flex;
-	justify-content: center;
 	position: relative;
 	left: 100px;
 	height: 50%;
+	display: inline-flex;
+	justify-content: flex-end;
 }
 
 div.vertical {
-	display: inline-flex;
-	flex-direction: column;
-	justify-content: center;
 	position: relative;
 	top: 70px;
 	width: 70%;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 
 ::-webkit-input-placeholder {
