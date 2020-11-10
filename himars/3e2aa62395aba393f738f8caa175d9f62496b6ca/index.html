@@ -6,11 +6,12 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<style>
 				div.ponder{
-				background-color: white;
-			}
-			span:hover + div.ponder{
-				display: block;
-			}
+					background-color: white;
+					display: none;
+				}
+				span:hover + div.ponder{
+					display: block;
+				}
 			</style>
 		</head>
 		<body>
@@ -18,9 +19,7 @@
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
-				<li> <span> <a class="hide.text" href="/blog/bloop1.html">CV</a> </span>
-				     <div class="ponder"> you really wanna click on my CV while you're here? </div>
-				     </li>
+				<li class="hide.text"> <span> <a class="hide.text" href="/blog/bloop1.html">CV</a> </span> <div class="ponder"> Why?! ;_; </div></li>
 	        		<li><a href="/blog">Blog</a></li>
 				<li class="hide.text"><a class="hide-text" href="/himars">HiMars</a></li>
 	    		</ul>
