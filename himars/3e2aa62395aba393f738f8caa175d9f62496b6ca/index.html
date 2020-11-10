@@ -3,9 +3,8 @@
 		<head>
 			<title> Fascinating Place: Web </title>
 			<!-- link to main stylesheet -->
-			<!--link rel="stylesheet" type="text/css" href="/css/main.css"-->
+			link rel="stylesheet" type="text/css" href="/css/main.css"
 			<style>
-				nav {background-color: green;}
 				nav a {
 				  text-decoration: none;
 				  color: white;
@@ -15,23 +14,28 @@
 				}
 				ul {
 				  display: inline;
+				  font-size: 19px;
+				  line-height: 19px;
+				  color: #333;
 				  margin: 0;
 				  padding: 0;
 				}
-				ul li {display: inline-block;}
-				ul li:hover {background: #555;}
-				ul li:hover ul {display: block;}
-				ul li ul {
+				nav ul li {
+					display: inline-block !important;
+				}
+				nav ul li:hover {background: #555;}
+				nav ul li:hover ul {display: block;}
+				nav ul li ul {
 				  position: absolute;
 				  width: 200px;
 				  display: none;
 				}
-				ul li ul li { 
+				nav ul li ul li { 
 				  background: #555; 
 				  display: block; 
 				}
-				ul li ul li a {display:block !important;} 
-				ul li ul li:hover {background: #666;}
+				nav ul li ul li a {display:block !important;} 
+				nav ul li ul li:hover {background: rgba(20,20,20,0.5);}
 			</style>
 		</head>
 		<body>
@@ -43,7 +47,7 @@
 	        	    <li class="hide.text"> 
 				<a class="hide.text" href="/blog/bloop1.html">CV</a>
 				<ul>
-				    <li> <a href="#"> Why?! ;_; </a> </li>
+				    <li> <a href="/himars/3e2aa62395aba393f738f8caa175d9f62496b6ca/clickonwhy.html"> Why?! </a> </li>
 				</ul>
 			    </li>
 			  </ul>
