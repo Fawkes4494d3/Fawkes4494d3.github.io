@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 <title> It's a good habit </title>
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
-
 <style>
-
 body {
 	background-image: url("/himars/pictures/jim.png");
 	background-attachment: fixed;
         background-size: contain;
 	color: #333;
 }
-
+div.left{
+	left: 0px;
+	top: 400px;
+	height: 40px;
+	width: 100px;
+	text-align: left;
+	color: yellow;
+	text-color: white;
+	}
+div.right{
+	right: 0px;
+	top:400px;
+	height: 40px;
+	width: 100px;
+	text-align: right;
+	color: yellow;
+	text-color: white;
+	}
 </style>
-
+</head>
 <body>
-	<nav>
-	  <ul>
-	    <li> 
-            <a href="#"> If you had to reply to the Yes Man:</a>
-		    <ul>
-			 <li> <a href="/"> Yes </a> </li>
-			 <li> <a href="/"> No </a> </li>
-		    </ul>
-            </li>
-          </ul>
-	</nav>
+	<div class="left"> <a style="font-weight: bold;" href="/"> Yes </a> </div>
+	<div class="right"> <a style="font-weight: bold;" href="/"> No </a> </div>
 </body>
 </html>
