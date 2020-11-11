@@ -4,28 +4,54 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<style>
-			div.ponder{
-				width: 100px;
-				display: none;
-				text-size: 50%;
-			}
-			span:hover + div.ponder{
-				display: block;
-			}
-		</style>
+			<style>
+				nav a {
+				  text-decoration: none;
+				  color: #999;
+				  font-size: 20px;
+				  padding: 15px;
+				  display: inline-block;
+				  font-weight: bold;
+				}
+				ul {
+				  display: inline;
+				  font-size: 19px;
+				  line-height: 19px;
+				  color: #333;
+				  margin: 0;
+				  padding: 0;
+				}
+				nav ul li {
+					display: inline-block !important;
+				}
+				nav ul li:hover {background: #555;}
+				nav ul li:hover ul {display: block;}
+				nav ul li ul {
+				  position: absolute;
+				  width: 200px;
+				  display: none;
+				}
+				nav ul li ul li { 
+				  background: #555; 
+				  display: block; 
+				}
+				nav ul li ul li a {display:block !important;} 
+				nav ul li ul li:hover {background: rgba(20,20,20,0.5);}
+			</style>
 		</head>
-			
-				
 		<body>
 			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-				<li class="hide.text"> <span class="hide.text"> <a class="hide.text" href="/blog/bloop1.html">CV</a> </span> <div class="ponder"> why?! let me hover for you. run, cursor, run! </div> </li>
-	        		<li><a href="/blog">Blog</a></li>
-				<li class="hide.text"><a class="hide-text" href="/himars">HiMars</a></li>
-	    		</ul>
+			  <ul>
+				  <li> <a href="/">Home</a> </li>
+				  <li> <a href="/about">About</a> </li>
+				  <li> <a href="/blog">Blog</a> </li>
+				  <li>			  
+					<a style="color: white;" href="/blog/bloop1.html">CV</a>
+					<ul>
+					    <li> <a href="/"> Why?!</a> </li>
+					</ul>
+			          </li>
+			  </ul>
 			</nav>
 			<div class="post">
 				<div class="post single">
