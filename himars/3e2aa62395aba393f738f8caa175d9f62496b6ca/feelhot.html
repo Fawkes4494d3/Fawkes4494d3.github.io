@@ -20,14 +20,14 @@ p.se { position: fixed; right: 10px; bottom: 10px;}
   function light(s,c) {
     var pic="";
     if (s == 0) {
-      pic = pic.concat("/himars/pictures/ricebulbs",c,"off.jpg")
+      pic = pic.concat("/himars/pictures/ricebulbs",c,"off.jpg");
     } else {
-      pic = pic.concat("/himars/pictures/ricebulbs",c,".jpg")
+      pic = pic.concat("/himars/pictures/ricebulbs",c,".jpg");
     }
     if (document.getElementById(c).src == pic) {
-      document.getElementById("show").display = "block" 
+      document.getElementById("show").display = "inline"; 
     } else {
-      document.getElementById("show").display = "none"
+      document.getElementById("show").display = "none";
     }
     document.getElementById(c).src = pic;    
   }
@@ -40,7 +40,7 @@ p.se { position: fixed; right: 10px; bottom: 10px;}
   
   <img id="nw" class="n" src="/himars/pictures/ricebulbsnwoff.jpg" style="position: fixed; top: 100px; left: 340px;">
   
-  <div id="show" style="display: none; text-color: red; font-weight: bold">
+  <div id="show" style="position: fixed; top: 50px; left: 340px; font-size: 15px; display: none; text-color: red; font-weight: bold">
     That button won't change the current state of illumination.
   </div>
   
