@@ -13,11 +13,36 @@ body {
  	background-size: contain;
 	color: #333;
 }
+
+@keyframes rainbow {
+  0%   {background-color: white;
+	font-size: 20px;}
+  15%   {background-color: red;}
+  29%   {background-color: orange;}
+  43%   {background-color: yellow;}
+  58%   {background-color: green;
+	font-size: 30px;}
+  72%   {background-color: blue;}
+  86%   {background-color: azure;}
+  100%  {background-color: violet;
+	font-size: 20px}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 180px;
+  background-color: white;
+  animation-name: rainbow;
+  animation-duration: 24s;
+  position: fixed; 
+  right: 5px; 
+  top: 10px; 
+  font-size: 20px;
+}
 </style>
 </head>
 <body> 
-	<div style="position: fixed; right: 5px; top: 10px; font-size: 20px; width: 100px;"> Daddy told me this page would take us home. Please stay with me now. mao.
-	</div>
+<div> Daddy told me this page would take us home. Please stay with me now. mao. </div>
 <script>
    var timer = setTimeout(function() {
        window.location='http://fawkes4494d3.github.io/himars/3e2aa62395aba393f738f8caa175d9f62496b6ca/collected.html'
