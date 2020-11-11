@@ -36,7 +36,10 @@ bohemian rhapsody, semicolon, poison ivy,
 M+A+R+S+I+L+E+A = 78th word e actual link thakbe, 
 baki gulo rickroll and marsilea r favourite gaan and aankar link
 -->
+<br>
+
 And finally, [here's a link](https://www.youtube.com/playlist?list=PL_81wIHVJYPvrNGDfDDEr42t5h3CXzAPi) to a playlist I made for you, smaller in size than I had hoped it to be due to change of plans (more on this later, with a theme of reversal working throughout ;) ), but hopefully with good music.
+<br>
 
 Each of those words above is a link. Go on, click on any one of them to know more about what this could be and who "you" is.
 If this you, Mars, you know what to do. I love you.
