@@ -77,8 +77,10 @@
 				</ul>
 			</p>
 			<script>
-				function tohide() {
-				  var x = document.getElementById("mydiv");
+				function tohide(c) {
+				  var y = "mydiv";
+				  var name = y.concat(c);
+				  var x = document.getElementById(name);
 				  if (x.style.display === "none") {
 				    x.style.display = "block";
 				  } else {
@@ -90,15 +92,15 @@
 				This, on the other hand is also one chance I am getting to redeem myself, and the chance to have more chances, to regain as many pieces of your faith in me which I have broken as I can. :P
 				So here's the following list for the other things that I had planned but ended up having not met in the foregoing days, in no particular order ... :
 				<ul>
-					<li> <button onclick="tohide()">This is the first one</button>
-						<div id="mydiv">  Thought I would start with wishing (as in starting this reversal process) from the 9<sup>th</sup> of this month. That would have given me 12 days consecutive, in which I would have called you at special times, like 1:23, or 12:34 or 3:33, maybe even align these times with the countdown index, with calling between 12pm and 1pm on the first day, and between 1pm and 2pm on the second day, so that on the 12<sup>th</sup> day, which would be the 20<sup>th</sup> of November, I would call in between 12am and 1am, which would precisely be at 12am. You can obviously see so many things that could go wrong in this one, what with the timings, I had even decided to maintain a 12 minutes 34 seconds, or 33 minutes 33 seconds long phone calls, and I would have asked you on the 20<sup>th</sup> midnight when I called you to go check the call logs over the last 12 days. 12 days for 12 distinct hours in a day, for 12 sons of David and 12 prophets chosen by cheeses himself. (David, of course, is not that guy from the Bible. David Schitt could be a suitable boy.)</div>
+					<li> <button onclick="tohide('1')">This is the first one</button>
+						<div id="mydiv1" style="display: none;">  Thought I would start with wishing (as in starting this reversal process) from the 9<sup>th</sup> of this month. That would have given me 12 days consecutive, in which I would have called you at special times, like 1:23, or 12:34 or 3:33, maybe even align these times with the countdown index, with calling between 12pm and 1pm on the first day, and between 1pm and 2pm on the second day, so that on the 12<sup>th</sup> day, which would be the 20<sup>th</sup> of November, I would call in between 12am and 1am, which would precisely be at 12am. You can obviously see so many things that could go wrong in this one, what with the timings, I had even decided to maintain a 12 minutes 34 seconds, or 33 minutes 33 seconds long phone calls, and I would have asked you on the 20<sup>th</sup> midnight when I called you to go check the call logs over the last 12 days. 12 days for 12 distinct hours in a day, for 12 sons of David and 12 prophets chosen by cheeses himself. (David, of course, is not that guy from the Bible. David Schitt could be a suitable boy.)</div>
 					</li>
-					<li> <button onclick="tohide()">This is another one</button>
-						<div id="mydiv"> Thought it would be awesome if I could actually learn to play a little something on the synth while I sing it, using what little vocal gifts I have :3 , <br>
+					<li> <button onclick="tohide('2')">This is another one</button>
+						<div id="mydiv2" style="display: none;"> Thought it would be awesome if I could actually learn to play a little something on the synth while I sing it, using what little vocal gifts I have :3 , <br>
 						and started learning a song, the vocal part of it, and have almost given up now, because you sing better than me anyday. I still practice though, only in the bathroom. If so be it, I shall become the sloppy nightingale of my own rain. B)</div>
 					</li>
-					<li> <button onclick="tohide()">Another one?</button>
-						<div id="mydiv"> Goddamnit, you should try to be prepared for some surprises! ;)</div>
+					<li> <button onclick="tohide('3')">Another one?</button>
+						<div id="mydiv3" style="display: none;"> Goddamnit, you should try to be prepared for some surprises! ;)</div>
 					</li>
 				</ul>
 			</p>
