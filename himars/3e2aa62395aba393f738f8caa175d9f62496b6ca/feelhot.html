@@ -24,9 +24,15 @@ p.se { position: fixed; right: 10px; bottom: 10px;}
     } else {
       pic = pic.concat("/himars/pictures/ricebulbs",c,".jpg")
     }
-    document.getElementById(c).src = pic;
+    if (document.getElementById(c).src == pic) {
+      document.getElementById("show").display = "block" 
+    } else {
+      document.getElementById("show").display = "none"
+    }
+    document.getElementById(c).src = pic;    
   }
   </script>
+  
   <p class="nw"> 
   <button type="button" onclick="light(1,'nw')">Light On</button>
   <button type="button" onclick="light(0,'nw')">Light Off</button>
@@ -34,6 +40,9 @@ p.se { position: fixed; right: 10px; bottom: 10px;}
   
   <img id="nw" class="n" src="/himars/pictures/ricebulbsnwoff.jpg" style="position: fixed; top: 100px; left: 340px;">
   
+  <div id="show" style="display: none; text-color: red; font-weight: bold">
+    That button won't change the current state of illumination.
+  <div>
   <p class="ne"> 
   <button type="button" onclick="light(1,'ne')">Light On</button>
   <button type="button" onclick="light(0,'ne')">Light Off</button>
