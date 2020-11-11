@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { background-color: black;}
+img { width: 100px;}
+img.n { height: 96px;}
+img.s { height: 97px;}
+p.nw { position: fixed; left: 10px; top: 10px;}
+p.ne { position: fixed; right: 10px; top: 10px;}
+p.sw { position: fixed; left: 10px; bottom: 10px;}
+p.se { position: fixed; right: 10px; bottom: 10px;}
+
+</style>
+</head>
+<body>
+
+  <script>
+  function light(s,c) {
+    var pic="";
+    if (s == 0) {
+      pic = pic.concat("/himars/pictures/ricebulbs",c,"off.jpg")
+    } else {
+      pic = pic.concat("/himars/pictures/ricebulbs",c,".jpg")
+    }
+    document.getElementById(c).src = pic;
+  }
+  </script>
+  <p class="nw"> 
+  <button type="button" onclick="light(1,'nw')">Light On</button>
+  <button type="button" onclick="light(0,'nw')">Light Off</button>
+  </p>
+  
+  <img id="nw" class="n" src="/himars/pictures/ricebulbsnwoff.jpg" style="position: fixed; top: 200px; left: 250px;">
+  
+  <p class="ne"> 
+  <button type="button" onclick="light(1,'ne')">Light On</button>
+  <button type="button" onclick="light(0,'ne')">Light Off</button>
+  </p>
+  
+  <img id="ne" class="n" src="/himars/pictures/ricebulbsneoff.jpg" style="position: fixed; top: 200px; left: 350px;">
+  
+  <p class="sw"> 
+  <button type="button" onclick="light(1,'sw')">Light On</button>
+  <button type="button" onclick="light(0,'sw')">Light Off</button>
+  </p>
+  
+  <img id="sw" class="s" src="/himars/pictures/ricebulbsswoff.jpg" style="position: fixed; top: 296px; left: 250px;">  
+  
+  <p class="se"> 
+  <button type="button" onclick="light(1,'se')">Light On</button>
+  <button type="button" onclick="light(0,'se')">Light Off</button>
+  </p>
+  
+  <img id="se" class="s" src="/himars/pictures/ricebulbsseoff.jpg" style="position: fixed; top: 296px; left: 350px;">  
+</body>
+</html>
