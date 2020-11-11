@@ -1,75 +1,144 @@
 <!DOCTYPE html>
-	<html>
+<html>
 		<head>
-			<title> Fascinating Place: Web </title>
+			<title> Looking for answers </title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<style>
+				nav a {
+				  text-decoration: none;
+				  color: #999;
+				  font-size: 20px;
+				  padding: 15px;
+				  display: inline-block;
+				  font-weight: bold;
+				}
+				ul {
+				  display: inline;
+				  font-size: 19px;
+				  line-height: 19px;
+				  color: #333;
+				  margin: 0;
+				  padding: 0;
+				}
+				nav ul li {
+					display: inline-block !important;
+				}
+				nav ul li:hover {background: #555;}
+				nav ul li:hover ul {display: block;}
+				nav ul li ul {
+				  position: absolute;
+				  width: 200px;
+				  display: none;
+				}
+				nav ul li ul li { 
+				  background: #555; 
+				  display: block; 
+				}
+				nav ul li ul li a {display:block !important;} 
+				nav ul li ul li:hover {background: rgba(20,20,20,0.5);}
+			</style>
 		</head>
 		<body>
 			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
+			  <ul>
+				  <li> <a href="/">Home</a> </li>
+				  <li> <a href="/about">About</a> </li>
+				  <li> <a href="/blog">Blog</a> </li>
+				  <li>			  
+					<a style="color: white;" href="/blog/bloop1.html">CV</a>
+					<ul>
+					    <li> <a href="/himars/3e2aa62395aba393f738f8caa175d9f62496b6ca/clickonwhy.html"> Why?! </a> </li>
+					</ul>
+			          </li>
+			  </ul>
 			</nav>
 			<div class="container">
-        <div class="blurb">
+				<script>
+				function tohide(c) {
+				  var y = "mydiv";
+				  var name = y.concat(c);
+				  var x = document.getElementById(name);
+				  if (x.style.display === "none") {
+				    x.style.display = "block";
+				  } else {
+				    x.style.display = "none";
+				  }
+				} 
+				</script>
+				<p> Now, there's quite a few likely ways you arrived up here. In any of those cases, you would definitely have had to click on the <strong>Why?!</strong> part
+					in the dropdown for the hidden "CV" label in the navigator above. So, you know that trick. But I had set up quite a few paths to reach here, in there,
+					including a path when you didn't come across the game with the lights at all. So here's a couple of things I had promised: (<u>click on the button to show or hide, it can do both</u>)
+					<ul>
+						<li> <button onclick="tohide('1')">Remember this one? No surprises - promise!</button>
+						<div id="mydiv1" style="display: none;">  
+							Remember that coding problem with bulbs and something, you had asked me to tell you if I found out an algorithm to that problem finally.
+							Well, I had done indeed, it was not so tough. What seemed tougher was actually implementing it. Check it out <a href="feelhot.html">here</a>.
+							There's a 45 second time limit on it for today (after 45 seconds the page gets redirected to another page, where you get yet another
+							chance to go back to the previous page) and I will implement a button to set the number of seconds the page waits for you sometime soon. ;) 
+						</div>
+						</li>
+						
+						<li> <button onclick="tohide('2')">That numberphile promise</button>
+						<div id="mydiv2" style="display: none;">  
+							Hopefully, you have read <a href="index.html">this post</a>. In the last list of things there, I have mentioned that thing I wanted to do 
+							with numbers, and would have required 12 days for it to work out, but then, today is the 10<sup>th</sup> day before your birthday, and any countdown
+							(except for spaceships going to the moon, or Mars) begins with 10. Seems like 10 is not necessarily so bad either. So here's my quip:
+							<ul>
+								
+								<li> If I had indeed followed on with the plan for 12 days, I would have tried to finish the list of all the hour:minute timings in the days
+									as I had promised once, and I will. </li>
+								<li> <u>How many minutes is that?</u> 60 minutes an hour times 24 hours a day gives 1440 minutes, so in 12 days, I would have had to do 120 
+									numbers per day. But now, with 10 days, if I were to do all of them, I would need to make an average of 144. So I will list a number 
+									of nice properties about 144. But before that, another small quip, <b><i><u>boiling the whole haphazard planning down to the number 
+									144 is precisely the</u></i></b> wait-for-it <b><u>reversal of the Butterfly Effect</u></b> in our relationship, we went from 
+									<ul>
+										<li> me impressing you with seemingly magical single-digit-tricks ... <u> to </u> </li>
+										<li> those tricks dying out with monotonicity and overusage ... <u> to </u> </li>
+										<li> feeling the need to have to go to 
+											should-be-otherwise unnecessary bounds to make something sound 
+											magical again </li>
+									</ul>
+									the tour-de-force with the butterfly effect has been strong. <br>
+									Here, I try to win your trust back by reminding you that I am just stuck, not satisfied, and go
+									through the processes in the above list, in the <i>reverse</i> order, finding order from chaos in the
+									domino effect caused so far. </li>
+								<li> So 144 it is.
+									<ul>
+										<li> 144 is composed of 3 individually-perfect-square digits, 1,4 and 4 </li>
+										<li> Is a perfect square itself, as is it's <i>reverse</i> 441. </li>
+										<li> Sum of it's digits=S(144)=1+4+4=9 and product of it's digits=P(144)=1*4*4=16 are also perfect squares</li>
+										<li> S(144)=3<sup>2</sup> and P(144)=4<sup>2</sup>, and <br> 
+											144=12<sup>2</sup>=(3*4)<sup>2</sup>=3<sup>2</sup>4<sup>2</sup>=S(144)*P(144) <br>
+											so 144 is the product of the sum of it's digits and the product of it's digits. </li>
+										<li> 144 is 12 many 12s, the significant number mentioned in my <a href="index.html">previous
+											post</a>, appearing in many theological contexts (of course XD) </li>
+										<li> A property which sounds quite fun to state as I ponder over it is: <br>
+											sum of any n<sup>th</sup> powers of the digits of 144 is divisible by 3 <br>
+											i.e. 1<sup>n</sup>+4<sup>n</sup>+4<sup>n</sup> is divisible by 3 for any whole number n. </li>
+									</ul></li>
+							</ul>
+						</div>
+						</li>		
+					</ul>
+				</p>
 
-          Imma have a conversation with you today. We can do this on a long text that this one can be, like a letter, eh?
-          <br> <br>
-          Why this password?. <em>Will put a password explanation here with another link</em>
-          <br>
-          <p>It is actually, 'this is' put together. And <a href="https://www.youtube.com/watch?v=Xm7Q8ue9kBM">This is the last of .....</a> </p>
-          <br>
-          <p>A collection of links for you:
-          <ul>
-            <li> <a href="http://www.viruscomix.com/page430.html"> This is number one </a> </li>
-            <li> <a href="http://wondermark.com/006/"> This is number two </a>  </li>
-            <li> <a href="http://falseknees.com"> This is number two </a> </li>
-            <li> nineteen twenty one manga <em> gotta upload this soon </em> </li>
-          </ul>
-          </p>
-          <br>
-          It's not difficult to find something that you would like. You're one more collection of cells like me, accepting anything that comes their way to enlighten their life. I wouldn't trust the aging and comprehension skills of the sentient part of our cells to be the same, because they are so obviously not.
-          <br>
-
-          Strangers in the night//Exchanging glances//Wondering in the night//What were the chances//We'd be sharing love//Before the night was through?//Something in your eyes//Was so inviting//Something in your smile//Was so exciting//Something in my heart told me I must have you (<a href="https://www.youtube.com/watch?v=uXJysyMVTsQ"> learn </a>)
-
-          watch over you - alter bridge
-          <br>
-          it's us against the world - coldplay 
-          <br>
-          alter bridge - blackbird
-          <br>
-          you brought me a yellow rose
-          <br><br>
-          <p> last birthday - <a href="https://youtu.be/gNTmLLZSjSs"> this </a> happened </p>
-
-          <p> <a href="https://people.math.osu.edu/edgar.2/square_wheels.jpg"> If balance is not your confidante, And cycling not your skill,
-          Don't worry, li'l baby // To cycle, made ready, // Build roads for you, I will. </a> </p>
-
-          what is the probability of little baby learning probability? I said <img src="https://render.githubusercontent.com/render/math?math=p%20\in%20(0.5,1)">. Prove it using the direct conditional probability calculations shown in the wikipedia page for the monty hall problem.
-
-          WANT: one grey, one white sketchbook, skull, nice lights, table lamp.
-
-          no longer human ~ itou junji
-
-          marsilea amar jonyo question banabe contest er jekhane vanishing ink e number thakbe jeita add kotte hobe. 
-          lights-question-from-septembercookoff
-
-          figurines and swords
-
-          bring yoghurt every day for you.  and flowers, of course, which I'd bring anyway.
-
-          <a href="https://www.artlounge.in/paper-255%20/painton-multi-technique-a-grain-glued-mixed-media-paper-a5-250-gsm-pad-20-sheets"> We know what, in here </a> <a href="aliexpress.com"> and you love sakura </a>
-
-          make resin jewellery and knots for you
-  </div>
-			
-      
-      </div><!-- /.container -->
+				  <p>Now, here's why that password. Initially it sounded like 'thesis' to me, and I was almost unsure of what the word would actually
+					  sound like for a second, it is actually just 'this is' put together. And <a href="https://www.youtube.com/watch?v=Xm7Q8ue9kBM">This is the last of .....</a> </p>
+				  <br>
+				  <p>
+					  Here's a couple of comics you might find funny and even find interesting enough to bookmark for later reading: :P
+				  <ul>
+				    <li> <a href="http://www.viruscomix.com/page430.html"> The work being an epic piece of work </a> </li>
+				    <li> <a href="http://wondermark.com/006/"> Hard-Relate-Or-Not? </a>  </li>
+				    <li> <a href="http://falseknees.com">  aaaaand the house is crowded with this one! </a> </li>
+				    <!-- nineteen twenty one manga-->
+				  </ul>
+				  </p>
+				  <br>
+				  <p> That's it for today, I think and I hope I am able to live up to whatever I have promised to myself, in the coming days. <br>
+					  Hope we meet soon. Bye, <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">love</a>. </p> 
+		      </div><!-- /.container -->
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:soumavapal@gmail.com">email</a></li>
