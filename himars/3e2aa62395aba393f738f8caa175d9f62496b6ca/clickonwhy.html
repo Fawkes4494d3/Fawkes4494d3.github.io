@@ -13,8 +13,8 @@ body {
 }
 div.left{
 	position: relative;
-	left: 40px;
-	top: 280px;
+	left: 200px;
+	top: 300px;
 	height: 50px;
 	width: 75px;
 	text-align: center;
@@ -29,10 +29,27 @@ div.right{
 	text-align: center;
 	background-color: yellow;
 	}
+.animation {
+    background-color: #54a3f7;
+    -webkit-animation: html 45s ease-in;
+}
+#animate-me {
+    background: yellow;
+    width: 0%;
+    overflow: hidden;
+}
+@-webkit-keyframes html {
+    30% {
+        width: 0%;
+    }
+    30% {
+        width: 30%;
+    }
+}
 </style>
 </head>
-<body>
-	<div class="left"> <a style="text-color: white; font-size: 30px; font-weight: bold;" href="/"> Yes </a> </div>
-	<div class="right"> <a style="text-color: white; font-size: 30px; font-weight: bold;" href="/"> No </a> </div>
-</body>
+	<body>
+		<div class="left"> <a style="text-color: white; font-size: 30px; font-weight: bold;" href="/"> Yes </a> </div>
+		<div class="right"> <a style="text-color: white; font-size: 30px; font-weight: bold;" href="/"> No </a> </div>	
+	</body>
 </html>
